@@ -1,5 +1,5 @@
 const API = "https://api.weatherapi.com/v1/current.json";
-const API_KEY = "a33c18ffc4704a42806140326261802"; // From weatherapi.com
+const API_KEY = "a33c18ffc4704a42806140326261802"; 
 
 function showMessage(msg, type = "success") {
     const messageEl = document.getElementById("message");
